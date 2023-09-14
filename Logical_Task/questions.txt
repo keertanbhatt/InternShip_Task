@@ -1,0 +1,54 @@
+==================================
+TASK 1
+==================================
+Description:-
+ - Generate object with key as character and value as number of character occurred in given string
+
+const a = "hello there";
+
+Output:-
+"h": 2
+"e": 3
+"l": 2
+"o": 1
+" ": 1
+"t": 1
+"r": 1
+
+==================================
+TASK 2
+==================================
+Description:-
+ - get single array form array of array
+ 
+const a = [1, [2,3],[[4,5], 7],6]
+
+Output:-
+[1,2,3,4,5,7,6]
+
+
+==================================
+TASK 3
+==================================
+A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.
+Implement a function called getIsPalindrome() that should return true if the input string is a palindrome. 
+
+Output:-
+'kayak' => true
+'mango' => false
+'bob'   => true
+
+==================================
+TASK 4
+==================================
+Description:-
+ - Generate string equation from given array
+ 
+const a = [
+  "OR",
+  ["<", "a", "b"],
+  ["AND", ["==", "c", "d"], ["!=", "e", "f"]]
+];
+
+Output:-
+a < b OR (c == d AND e != f)

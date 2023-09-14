@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Custom Context Menu</title>
+</head>
+    
+<body>
+    <div class="container">
+        <img id="image" src="img.jpg" alt="Image" height="400" width="400">
+    </div>
+
+    <!-- Custom Context Menu -->
+        <ul class="context-menu">
+            <li><a href="#"><i class='bx bx-file-blank'></i> File <i class='bx bx-chevron-right arrow'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class='bx bx-plus'></i> New<i class='bx bx-chevron-right arrow'></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class='bx bx-bookmark' ></i> Bookmark</a></li>
+                            <li><a href="#"><i class='bx bx-video'></i> Video</a></li>
+                        </ul>
+                        
+                    </li>
+                    <li><a href="#"><i class='bx bx-trash'></i> Delete</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"><i class='bx bx-export'></i> Export</a></li>
+
+                </ul>
+            </li>
+            <li><a href="#"><i class='bx bx-edit-alt'></i> Edit<i class='bx bx-chevron-right arrow'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class='bx bx-align-left'></i> Left</a></li>
+                    <li><a href="#"><i class='bx bx-align-right' ></i> Right</a></li>
+                    <li><a href="#"><i class='bx bx-align-middle' ></i> Center</a></li>
+                    <li><a href="#"><i class="fa fa-align-justify"></i> Justify</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#"><i class='bx bx-user'></i> Users <i class='bx bx-chevron-right arrow'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class='bx bx-user-plus'></i> New</a></li>
+                    <li><a href="#"><i class='bx bx-user-minus'></i> Delete</a></li>
+                    <li>
+                        <a href="#">
+                            <i class='bx bx-search-alt-2'></i> Search <i
+                                class='bx bx-chevron-right arrow'></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class='bx bxl-facebook'></i> Filter <i class='bx bx-chevron-right arrow'></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><i class='bx bx-printer' ></i> Print</a></li>
+                                </ul>
+        
+                            </li>
+
+                            <li><a href="#"><i class="fa fa-align-justify"></i> List</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#"><i class='bx bx-calendar-event'></i> Events <i class='bx bx-chevron-right arrow'></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#"><i class='bx bx-edit-alt'></i> Edit <i class='bx bx-chevron-right arrow'></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class='bx bx-save'></i> Save</a></li>
+                            <li><a href="#"><i class='bx bxs-folder-minus'></i> Delete</a></li>
+                        </ul>
+
+                    </li>
+                    <li><a href="#"><i class='bx bx-archive'></i> Archive <i class='bx bx-chevron-right arrow'></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class='bx bxs-folder-minus'></i> Remove</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="divider"></li>
+
+            <li><a href="#"><i class='bx bx-log-out-circle'></i> Quit</a></li>
+        </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>

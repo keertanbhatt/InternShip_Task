@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Dropdown</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Dynamic dropdown Javascript Level 1</h1>
+    <div id="container">
+        <h2>Dynamically adding element inside the form</h2>
+        <form id="data-form">
+            <input type="text" id="text-input" placeholder="ID" required>
+            <select id="dropdown">
+                <option value="Text">Text</option>
+                <option value="Date">Date</option>
+                <option value="Datetime">Datetime</option>
+                <option value="Number">Number</option>
+                <option value="Color">Color</option>
+                <option value="Range">Range</option>
+                <option value="Email">E-mail</option>
+                <option value="Submit">Submit</option>
+            </select>
+
+            <button type="button" id="add-button">Add</button>
+            <button type="button" id="refresh-button" onclick="resetForm()">Refresh</button>
+        </form>
+        <div id="result"></div>
+        <div id="input-container"></div> 
+    </div>
+    <div id="message-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <p id="message-text"></p>
+        </div>
+    </div>
+</body>
+</html>

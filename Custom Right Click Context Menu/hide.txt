@@ -1,0 +1,6 @@
+function hideAllSubmenus() {
+    const submenus = document.querySelectorAll('.submenu');
+    submenus.forEach((submenu) => {
+        submenu.style.display = 'none';
+    });
+}

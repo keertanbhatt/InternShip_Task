@@ -1,0 +1,31 @@
+-file
+ newUs
+  bookmark
+  video
+ delete
+ export
+
+-Edit
+ Left
+ Right
+ Center
+ Justify
+
+-Users
+ New
+ Delete
+ Search
+  Filter
+   Print
+  List
+
+-Events
+ Edit
+  Save 
+  Delete
+ Archive
+  Remove
+
+--------------
+
+Quit
